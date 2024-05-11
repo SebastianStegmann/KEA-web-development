@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  nav .material-symbols-outlined {
+    @apply w-6 overflow-hidden;
+  }
+
+  :root {
+    --color-bkg-1: 214deg 31.8% 91.4%; 
+    --color-bkg-2: 214deg 31.8% 98.4%; 
+    --color-text: 0deg 0% 20%;
+    --color-border: 214deg 31.8% 91.4%;
+    --color-button-bg: 214deg 31.8% 91.4%;
+    --color-button-bg-hover: 214deg 31.8% 98.4%;
+    --color-button-text-hover: 0deg 0% 20%;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --color-bkg-1: 214deg 1.8% 11.4%; 
+      --color-bkg-2: 214deg 0% 20.4%; 
+      --color-text: 0deg 0% 80%;
+      --color-border: 214deg 1.8% 11.4%;
+      --color-button-bg: 214deg 1.8% 11.4%;
+      --color-button-bg-hover: 214deg 0% 20.4%;
+      --color-button-text-hover: 214deg 31.8% 91.4%;
+    }
+  }
+
+  :root[data-theme= "dark"] {
+    --color-bkg-1: 214deg 1.8% 11.4%; 
+      --color-bkg-2: 214deg 0% 20.4%; 
+      --color-text: 0deg 0% 80%;
+      --color-border: 214deg 1.8% 11.4%;
+      --color-button-bg: 214deg 1.8% 11.4%;
+      --color-button-bg-hover: 214deg 0% 20.4%;
+      --color-button-text-hover: 214deg 31.8% 91.4%;
+  }
+  :root[data-theme= "light"] {
+    --color-bkg-1: 214deg 31.8% 91.4%; 
+    --color-bkg-2: 214deg 31.8% 98.4%; 
+    --color-text: 0deg 0% 20%;
+    --color-border: 214deg 31.8% 91.4%;
+    --color-button-bg: 214deg 31.8% 91.4%;
+    --color-button-bg-hover: 214deg 31.8% 98.4%;
+    --color-button-text-hover: 0deg 0% 20%;
+  }
+    
+  
+}
+
+
