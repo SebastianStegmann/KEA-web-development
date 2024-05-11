@@ -7,7 +7,8 @@ Tailwindcss
 
 ############################## \
 Faker \
-https://github.com/fzaninotto/Faker
+https://github.com/fzaninotto/Faker \
+Project comes with seeded database. Install Faker if you need to seed again.
 
 ############################## \
 To use seeders, remove # from .htaccess in seeders folder \
